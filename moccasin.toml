@@ -1,0 +1,17 @@
+[project]
+src = "src"
+dot_env = ".env"
+
+[networks.contracts.price_feed]
+deployer_script = "script/deploy_mocks.py"
+
+[networks.sepolia]
+url = "$SEPOLIA_RPC_URL"
+chain_id = 11155111
+save_to_db = false
+default_account_name = "sepolia"
+explorer_uri = "https://eth-sepolia.blockscout.com/"
+explorer_type = "blockscout"
+
+[networks.sepolia.contracts.price_feed]
+address = "0x694AA1769357215DE4FAC081bf1f309aDC325306"
