@@ -21,7 +21,7 @@ def deploy(eth_usd):
 
 @pytest.fixture(scope="function")
 def contract_deployed(deploy,account ):
-    boa.env.set_balance(account.address,AMOUNT_VALUE )
+    boa.env.set_balance(account.address,AMOUNT_VALUE * 3)
     with boa.env.prank(account.address):
         deploy.fund(value= AMOUNT_VALUE)
     return deploy

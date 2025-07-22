@@ -1,10 +1,10 @@
 # Moccasin Project
 
-🐍 Welcome to your Moccasin project!
+🐍  to your buy me a coffee project!
 
 ## Quickstart
 
-1. Deploy to a fake local network that titanoboa automatically spins up!
+1. Deploy to a fake loctically spins up!
 
 ```bash
 mox run deploy
@@ -15,5 +15,3 @@ mox run deploy
 ```
 mox test
 ```
-
-_For documentation, please run `mox --help` or visit [the Moccasin documentation](https://cyfrin.github.io/moccasin)_

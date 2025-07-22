@@ -15,3 +15,8 @@ explorer_type = "blockscout"
 
 [networks.sepolia.contracts.price_feed]
 address = "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+
+[networks.anvil]
+url = "http://127.0.0.1:8545"
+save_to_db = true
+default_account_name = "anvil"
